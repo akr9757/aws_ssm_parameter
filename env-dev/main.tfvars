@@ -27,7 +27,3 @@ parameters = [
   { name= "dispatch-dev.amqp_user", value = "roboshop"},
   { name= "dispatch-dev.amqp_pass", value = "roboshop123"},
 ]
-
-Environment=AMQP_HOST=cart-dev.akrdevopsb72.online
-Environment=AMQP_USER=roboshop
-Environment=AMQP_PASS=rabbitmq_appuser_password
