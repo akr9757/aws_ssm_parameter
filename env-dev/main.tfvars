@@ -6,4 +6,16 @@ parameters = [
   { name= "frontend-dev.payment_url", value = "http://payment-dev.akrdevopsb72.online:8080/"},
   { name= "catalogue-dev.environment", value = "MONGO=true"},
   { name= "catalogue-dev.mongodb_url", value = "mongodb-dev.akrdevopsb72.online"},
+  { name= "cart-dev.redis_host", value = "redis-dev.akrdevopsb72.online"},
+  { name= "cart-dev.catalogue_host_host", value = "catalogue-dev.akrdevopsb72.online"},
+  { name= "cart-dev.catalogue_port", value = "8080"},
+  { name= "user-dev.environment", value = "MONGO=true"},
+  { name= "user-dev.redis_host", value = "redis-dev.akrdevopsb72.online"},
+  { name= "user-dev.mongo_url", value = "mongodb-dev.akrdevopsb72.online"},
+  { name= "shipping-dev.cart_endpoint", value = "cart-dev.akrdevopsb72.online"},
+  { name= "shipping-dev.db_host", value = "mysql-dev.akrdevopsb72.online"},
+  { name= "shipping-dev.db_user", value = "root"},
+  { name= "shipping-dev.db_password", value = "RoboShop@1"},
 ]
+
+
